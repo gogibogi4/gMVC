@@ -1,7 +1,6 @@
 <?php
 
 Route::get('/contact', function () {
-    
     return new ViewResponse('contact');
 });
 
